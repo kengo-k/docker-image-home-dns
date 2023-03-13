@@ -1,0 +1,15 @@
+{
+  // new line
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.eol": "\n",
+
+  // font
+  "editor.fontSize": 14,
+
+  // tab & whitespace
+  "files.trimTrailingWhitespace": true,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+}
