@@ -7,4 +7,4 @@ RUN \
 COPY dnsmasq.conf /etc/dnsmasq.conf
 COPY hosts-dnsmasq /etc/hosts-dnsmasq
 
-CMD ["dnsmasq", "--log-facility=-"]
+CMD ["dnsmasq", "-k", "--log-facility=-"]
