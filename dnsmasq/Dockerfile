@@ -10,4 +10,4 @@ RUN apk update && \
 COPY dnsmasq.conf /etc/dnsmasq.conf
 COPY hosts-dnsmasq /etc/hosts-dnsmasq
 
-CMD ["dnsmasq","--no-daemon"]
+CMD ["dnsmasq", "--no-daemon"]
