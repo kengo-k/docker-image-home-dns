@@ -1,4 +1,5 @@
 FROM alpine:3.17
+LABEL "LOCAL NETWORK DNS"
 
 RUN apk update && \
   apk upgrade && \
