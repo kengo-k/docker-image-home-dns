@@ -1,4 +1,5 @@
 FROM alpine:3.17
+LABEL version="1.0.0"
 LABEL description="LOCAL NETWORK DNS"
 
 RUN apk update && \
