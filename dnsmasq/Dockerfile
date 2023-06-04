@@ -1,6 +1,6 @@
 FROM alpine:3.17
-LABEL version="1.0.1"
-LABEL description="LOCAL NETWORK DNS"
+LABEL version="1.0.2"
+LABEL description="home network dns by dnsmasq"
 
 RUN apk update && \
   apk upgrade && \
